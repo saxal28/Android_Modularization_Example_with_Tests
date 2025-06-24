@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ud1_modularization_example_2.core.data.NetworkModuleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-24T18:36:27" hostname="Alan-Sax-MFQVF7THGW" time="0.098">
+  <properties/>
+  <testcase name="provideRetrofitBuilder should return configured builder" classname="com.example.ud1_modularization_example_2.core.data.NetworkModuleTest" time="0.096"/>
+  <testcase name="provideOkHttpClient should return configured client with logging interceptor" classname="com.example.ud1_modularization_example_2.core.data.NetworkModuleTest" time="0.001"/>
+  <testcase name="okHttpClient should have correct timeout configurations" classname="com.example.ud1_modularization_example_2.core.data.NetworkModuleTest" time="0.0"/>
+  <testcase name="provideHttpLoggingInterceptor should return configured interceptor" classname="com.example.ud1_modularization_example_2.core.data.NetworkModuleTest" time="0.0"/>
+  <testcase name="complete network setup integration test" classname="com.example.ud1_modularization_example_2.core.data.NetworkModuleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,86 @@
+06-24 14:05:34.906 12832 12872 I TestRunner: started: pokemonCard_displaysAllRequiredInformation(com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest)
+06-24 14:05:34.907 12832 12872 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@f3dba71]
+06-24 14:05:34.908 12832 12872 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-24 14:05:34.911   580  1792 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9069dcd0 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-24 14:05:34.916  1239  1239 W SplitSelectStateCtor: Missing session instanceIds
+06-24 14:05:34.916  1239  1239 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+06-24 14:05:34.918  1239  1239 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=69, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity }
+06-24 14:05:34.919   580   600 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cc75e5f
+06-24 14:05:34.923 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: PRE_ON_CREATE
+06-24 14:05:34.923 12832 12832 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-24 14:05:34.924   580   600 W InputManager-JNI: Input channel object 'b319f8b DeprecatedTargetSdkVersionDialog (client)' was disposed without first being removed with the input manager!
+06-24 14:05:34.927 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: CREATED
+06-24 14:05:34.928 12832 12832 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@d47395c
+06-24 14:05:34.928 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: STARTED
+06-24 14:05:34.929 12832 12832 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@d47395c
+06-24 14:05:34.929 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: RESUMED
+06-24 14:05:34.930 12832 12832 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@d47395c
+06-24 14:05:34.945   580   599 W ziparchive: Unable to open '/data/app/~~-mWJtftXxdZ7r57Kw54WNQ==/com.example.ud1_modularization_example_2.feature.pokedex.test-ZpFtPZS3_rKuy1dCp76tBw==/base.dm': No such file or directory
+06-24 14:05:34.946   580   599 I ActivityTaskManager: Displayed com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity for user 0: +35ms
+06-24 14:05:35.086   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+06-24 14:05:35.223   972  1043 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@cdea5d
+06-24 14:05:35.223  1239  1239 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-24 14:05:35.224   580  3138 W InputManager-JNI: Input channel object '5194be6 Splash Screen com.example.ud1_modularization_example_2.feature.pokedex.test (client)' was disposed without first being removed with the input manager!
+06-24 14:05:35.236  1239  1239 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+06-24 14:05:35.240  1239  1239 D BaseDepthController: setSurface:
+06-24 14:05:35.240  1239  1239 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+06-24 14:05:35.240  1239  1239 D BaseDepthController: 	mSurface: null
+06-24 14:05:35.240  1239  1239 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+06-24 14:05:35.240  1239  1239 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+06-24 14:05:35.240  1239  1239 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:4)
+06-24 14:05:35.240  1239  1239 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:1)
+06-24 14:05:35.240  1239  1239 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:34)
+06-24 14:05:35.240  1239  1239 D StatsLog: LAUNCHER_ONSTOP
+06-24 14:05:35.240  1239  2082 D OneSearchSuggestProvider: Shut down the binder channel
+06-24 14:05:35.241  1239  1239 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+06-24 14:05:35.241  1239  1248 I IPCThreadState: oneway function results for code 2 on binder at 0xb4000071e0566f70 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-24 14:05:35.260   580  2178 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9069dcd0 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-24 14:05:35.263 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: PAUSED
+06-24 14:05:35.263 12832 12832 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@d47395c
+06-24 14:05:35.264   580   600 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6d75ab8
+06-24 14:05:35.267 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20 in: PRE_ON_CREATE
+06-24 14:05:35.267 12832 12832 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20
+06-24 14:05:35.268   580   600 W InputManager-JNI: Input channel object '7edba5d DeprecatedTargetSdkVersionDialog (client)' was disposed without first being removed with the input manager!
+06-24 14:05:35.269   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+06-24 14:05:35.273 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20 in: CREATED
+06-24 14:05:35.273 12832 12832 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20
+06-24 14:05:35.274 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20 in: STARTED
+06-24 14:05:35.274 12832 12832 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20
+06-24 14:05:35.276 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20 in: RESUMED
+06-24 14:05:35.276 12832 12832 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20
+06-24 14:05:35.290   580   599 I ActivityTaskManager: Displayed com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +28ms
+06-24 14:05:35.292 12832 12832 D VRI[ComponentActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-24 14:05:35.308  1239  1239 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+06-24 14:05:35.308 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: STOPPED
+06-24 14:05:35.308 12832 12832 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@d47395c
+06-24 14:05:35.310 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@d47395c in: DESTROYED
+06-24 14:05:35.310 12832 12832 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-24 14:05:35.310 12832 12832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c63ff60
+06-24 14:05:35.311   580  3138 W InputManager-JNI: Input channel object '5186d21 com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+06-24 14:05:35.313   580   600 W InputManager-JNI: Input channel object 'Letterbox_fullWindow_ActivityRecord{b7e76c5 u0 com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity t69} (client)' was disposed without first being removed with the input manager!
+06-24 14:05:35.313 12832 12832 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20 in: PAUSED
+06-24 14:05:35.313 12832 12832 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokedex.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9580c20
+06-24 14:05:35.315  1239  1239 D StatsLog: LAUNCHER_ONRESUME
+06-24 14:05:35.315   580  1683 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+06-24 14:05:35.315 12832 12872 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@f3dba71]
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:67)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:28)
+06-24 14:05:35.316  1239  2082 D OneSearchSuggestProvider: 	... 8 more
+06-24 14:05:35.316 12832 12872 I TestRunner: finished: pokemonCard_displaysAllRequiredInformation(com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest)

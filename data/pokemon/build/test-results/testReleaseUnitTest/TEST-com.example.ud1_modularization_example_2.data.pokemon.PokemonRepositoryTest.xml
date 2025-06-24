@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-06-24T18:37:30" hostname="Alan-Sax-MFQVF7THGW" time="0.065">
+  <properties/>
+  <testcase name="getPokemonDetail by name should return failure when api call throws exception" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.042"/>
+  <testcase name="getPokemonDetail by id should return failure when api call throws exception" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.002"/>
+  <testcase name="getPokemonList should return success when api call succeeds" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.012"/>
+  <testcase name="getPokemonList should return failure when api call throws exception" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.002"/>
+  <testcase name="getPokemonDetail by id should return success when api call succeeds" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.003"/>
+  <testcase name="getPokemonDetail by name should return success when api call succeeds" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.002"/>
+  <testcase name="getPokemonList should use default parameters when none provided" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ud1_modularization_example_2.data.pokemon.PokemonModelSerializationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-24T18:37:30" hostname="Alan-Sax-MFQVF7THGW" time="0.023">
+  <properties/>
+  <testcase name="PokemonListItem should serialize and deserialize correctly" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonModelSerializationTest" time="0.017"/>
+  <testcase name="PokemonListResponse should deserialize from actual API JSON format" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonModelSerializationTest" time="0.002"/>
+  <testcase name="PokemonDetail should handle null base_experience correctly" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonModelSerializationTest" time="0.002"/>
+  <testcase name="PokemonListResponse should serialize and deserialize correctly" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonModelSerializationTest" time="0.001"/>
+  <testcase name="PokemonDetail should serialize and deserialize correctly" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonModelSerializationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

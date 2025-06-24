@@ -1,0 +1,4 @@
+com.example.ud1_modularization_example_2.core.ui
+drawable pokeball
+drawable search_icon
+drawable tag_icon

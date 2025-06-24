@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+drawable placeholder
+drawable pokeball
+drawable search_icon
+drawable tag_icon

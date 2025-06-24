@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.drawable.pokeball"
+            file="${:core:ui*debug*MAIN*sourceProvider*0*resDir*0}/drawable/pokeball.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="13"
+            endColumn="10"
+            endOffset="868"/>
+        <location id="R.drawable.search_icon"
+            file="${:core:ui*debug*MAIN*sourceProvider*0*resDir*0}/drawable/search_icon.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="9"
+            endColumn="10"
+            endOffset="901"/>
+        <location id="R.drawable.tag_icon"
+            file="${:core:ui*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tag_icon.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="9"
+            endColumn="10"
+            endOffset="1370"/>
+        <entry
+            name="model"
+            string="drawable[pokeball(D),search_icon(D),tag_icon(D)];;;;"/>
+    </map>
+
+</incidents>

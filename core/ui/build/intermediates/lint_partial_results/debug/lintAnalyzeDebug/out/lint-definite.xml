@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="incidents">
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (1100 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:core:ui*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tag_icon.xml"
+            line="8"
+            column="27"
+            startOffset="256"
+            endLine="8"
+            endColumn="1127"
+            endOffset="1356"/>
+    </incident>
+
+</incidents>

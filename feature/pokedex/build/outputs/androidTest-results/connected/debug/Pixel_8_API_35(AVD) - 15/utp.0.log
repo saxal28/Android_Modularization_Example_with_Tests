@@ -1,0 +1,46 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.example.ud1_modularization_example_2.feature.pokedex.test"
+    test_package: "com.example.ud1_modularization_example_2.feature.pokedex.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.example.ud1_modularization_example_2.feature.pokedex.test/additional_test_output"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: Configuring AndroidTestApkInstallerPlugin: apks_to_install {
+  apk_paths: "/Users/alan.sax/AndroidStudioProjects/ud1modularizationexample2/feature/pokedex/build/outputs/apk/androidTest/debug/pokedex-debug-androidTest.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [/Users/alan.sax/AndroidStudioProjects/ud1modularizationexample2/feature/pokedex/build/outputs/apk/androidTest/debug/pokedex-debug-androidTest.apk] on device emulator-5554.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Copying files from device to host: /sdcard/Android/media/com.example.ud1_modularization_example_2.feature.pokedex.test/additional_test_output to /Users/alan.sax/AndroidStudioProjects/ud1modularizationexample2/feature/pokedex/build/outputs/connected_android_test_additional_output/debugAndroidTest/connected/Pixel_8_API_35(AVD) - 15
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.example.ud1_modularization_example_2.feature.pokedex.test for device emulator-5554.
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_displaysPokemonIds_whenDataLoaded: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_showsEmptyState_whenNoPokemonData: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_searchFiltersResults_whenSearchQueryEntered: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_searchIsCaseInsensitive: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_callsSearchCallback_whenSearchQueryChanged: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_showsLoadingIndicator_whenLoading: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokemonCard_callsClickCallback_whenClicked: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_displaysAllPokemon_whenDataLoaded: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_displaysSearchBarCorrectly: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_callsPokemonClickCallback_whenPokemonCardClicked: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_callsRetryCallback_whenRetryButtonClicked: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_displaysHeaderCorrectly: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokemonCard_displaysAllRequiredInformation: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_showsCorrectPokemonCount_whenDataLoaded: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_displaysErrorState_whenErrorOccurs: PASSED
+INFO: Execute com.example.ud1_modularization_example_2.feature.pokedex.PokedexScreenTest.pokedexScreen_displaysPokemonImages_whenDataLoaded: PASSED

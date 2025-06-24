@@ -1,0 +1,5 @@
+com.example.ud1_modularization_example_2.feature.pokedex
+drawable placeholder
+drawable pokeball
+drawable search_icon
+drawable tag_icon

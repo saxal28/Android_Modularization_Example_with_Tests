@@ -1,0 +1,145 @@
+06-24 14:03:53.079 12517 12582 I TestRunner: started: pokemonDetailScreen_callsBackCallback_whenBackButtonClicked(com.example.ud1_modularization_example_2.feature.pokemon_detail.PokemonDetailScreenTest)
+06-24 14:03:53.081 12517 12582 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@714c32c]
+06-24 14:03:53.082 12517 12582 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-24 14:03:53.083   580  2178 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8eb50431 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-24 14:03:53.089  1239  1239 W SplitSelectStateCtor: Missing session instanceIds
+06-24 14:03:53.089  1239  1239 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+06-24 14:03:53.090   580   600 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@62a5a7e
+06-24 14:03:53.091  1239  1239 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=53, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity }
+06-24 14:03:53.092 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: PRE_ON_CREATE
+06-24 14:03:53.092 12517 12517 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-24 14:03:53.093   580   600 W InputManager-JNI: Input channel object 'a184cda DeprecatedTargetSdkVersionDialog (client)' was disposed without first being removed with the input manager!
+06-24 14:03:53.096 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: CREATED
+06-24 14:03:53.096 12517 12517 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@563a973
+06-24 14:03:53.097 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: STARTED
+06-24 14:03:53.097 12517 12517 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@563a973
+06-24 14:03:53.097 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: RESUMED
+06-24 14:03:53.097 12517 12517 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@563a973
+06-24 14:03:53.116   580   599 W ziparchive: Unable to open '/data/app/~~M0KCEW-bnOuKgUq7EXm2lg==/com.example.ud1_modularization_example_2.feature.pokemon_detail.test-KJbEV4Uqj0q9Gp4aJ1tdzQ==/base.dm': No such file or directory
+06-24 14:03:53.117   580   599 I ActivityTaskManager: Displayed com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity for user 0: +30ms
+06-24 14:03:53.119   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+06-24 14:03:53.303  1239  1802 D EGL_emulation: app_time_stats: avg=13.58ms min=0.36ms max=117.87ms count=53
+06-24 14:03:53.405  1239  1239 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-24 14:03:53.407   972  1043 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5fc851f
+06-24 14:03:53.408   580   654 W InputManager-JNI: Input channel object 'a741f66 Splash Screen com.example.ud1_modularization_example_2.feature.pokemon_detail.test (client)' was disposed without first being removed with the input manager!
+06-24 14:03:53.420  1239  1239 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+06-24 14:03:53.420 12517 12582 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+06-24 14:03:53.423  1239  1239 D BaseDepthController: setSurface:
+06-24 14:03:53.423  1239  1239 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+06-24 14:03:53.423  1239  1239 D BaseDepthController: 	mSurface: null
+06-24 14:03:53.423  1239  1239 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+06-24 14:03:53.424  1239  1239 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+06-24 14:03:53.424  1239  1239 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:4)
+06-24 14:03:53.424  1239  1239 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:1)
+06-24 14:03:53.424  1239  1239 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:34)
+06-24 14:03:53.424  1239  1239 D StatsLog: LAUNCHER_ONSTOP
+06-24 14:03:53.424  1239  2082 D OneSearchSuggestProvider: Shut down the binder channel
+06-24 14:03:53.424  1239  1239 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+06-24 14:03:53.425  1239  2803 I IPCThreadState: oneway function results for code 2 on binder at 0xb4000071e058c2f0 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-24 14:03:53.440   580   654 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@8eb50431 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-24 14:03:53.442 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: PAUSED
+06-24 14:03:53.442 12517 12517 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@563a973
+06-24 14:03:53.444   580   600 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2d0aa9e
+06-24 14:03:53.446 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a in: PRE_ON_CREATE
+06-24 14:03:53.446   580   600 W InputManager-JNI: Input channel object '1955525 DeprecatedTargetSdkVersionDialog (client)' was disposed without first being removed with the input manager!
+06-24 14:03:53.446 12517 12517 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a
+06-24 14:03:53.449 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a in: CREATED
+06-24 14:03:53.449 12517 12517 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a
+06-24 14:03:53.450 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a in: STARTED
+06-24 14:03:53.450 12517 12517 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a
+06-24 14:03:53.451 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a in: RESUMED
+06-24 14:03:53.451 12517 12517 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a
+06-24 14:03:53.477   580   599 I ActivityTaskManager: Displayed com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +36ms
+06-24 14:03:53.479 12517 12517 D VRI[ComponentActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-24 14:03:53.491 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: STOPPED
+06-24 14:03:53.491  1239  1239 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+06-24 14:03:53.491 12517 12517 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@563a973
+06-24 14:03:53.491 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@563a973 in: DESTROYED
+06-24 14:03:53.492 12517 12517 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-24 14:03:53.492 12517 12517 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b6ec3c7
+06-24 14:03:53.492   580  2178 W InputManager-JNI: Input channel object '50f2b52 com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+06-24 14:03:53.494   580   600 W InputManager-JNI: Input channel object 'Letterbox_fullWindow_ActivityRecord{965045 u0 com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity t53} (client)' was disposed without first being removed with the input manager!
+06-24 14:03:53.494 12517 12517 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a in: PAUSED
+06-24 14:03:53.494 12517 12517 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.activity.ComponentActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.ud1_modularization_example_2.feature.pokemon_detail.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1149e9a
+06-24 14:03:53.496  1239  1239 D StatsLog: LAUNCHER_ONRESUME
+06-24 14:03:53.497 12517 12582 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@714c32c]
+06-24 14:03:53.497 12517 12582 E TestRunner: failed: pokemonDetailScreen_callsBackCallback_whenBackButtonClicked(com.example.ud1_modularization_example_2.feature.pokemon_detail.PokemonDetailScreenTest)
+06-24 14:03:53.497 12517 12582 E TestRunner: ----- begin exception -----
+06-24 14:03:53.497 12517 12582 E TestRunner: java.lang.IllegalStateException: Given component holder class androidx.activity.ComponentActivity does not implement interface dagger.hilt.internal.GeneratedComponent or interface dagger.hilt.internal.GeneratedComponentManager
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at dagger.hilt.EntryPoints.get(EntryPoints.java:62)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at dagger.hilt.android.internal.lifecycle.HiltViewModelFactory.createInternal(HiltViewModelFactory.java:206)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.hilt.navigation.HiltViewModelFactory.create(HiltNavBackStackEntry.kt:75)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.hilt.navigation.compose.HiltViewModelKt.createHiltViewModelFactory(HiltViewModel.kt:95)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at com.example.ud1_modularization_example_2.feature.pokemon_detail.PokemonDetailScreenKt.PokemonDetailScreen(PokemonDetailScreen.kt:536)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at com.example.ud1_modularization_example_2.feature.pokemon_detail.PokemonDetailScreenTest$pokemonDetailScreen_callsBackCallback_whenBackButtonClicked$1.invoke(PokemonDetailScreenTest.kt:38)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at com.example.ud1_modularization_example_2.feature.pokemon_detail.PokemonDetailScreenTest$pokemonDetailScreen_callsBackCallback_whenBackButtonClicked$1.invoke(PokemonDetailScreenTest.kt:37)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:109)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:35)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.ComposeView.Content(ComposeView.android.kt:441)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AbstractComposeView$ensureCompositionCreated$1.invoke(ComposeView.android.kt:259)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AbstractComposeView$ensureCompositionCreated$1.invoke(ComposeView.android.kt:258)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:109)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:35)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.CompositionLocalKt.CompositionLocalProvider(CompositionLocal.kt:380)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.CompositionLocalsKt.ProvideCommonCompositionLocals(CompositionLocals.kt:216)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AndroidCompositionLocals_androidKt$ProvideAndroidCompositionLocals$3.invoke(AndroidCompositionLocals.android.kt:132)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AndroidCompositionLocals_androidKt$ProvideAndroidCompositionLocals$3.invoke(AndroidCompositionLocals.android.kt:131)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:109)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:35)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.CompositionLocalKt.CompositionLocalProvider(CompositionLocal.kt:380)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AndroidCompositionLocals_androidKt.ProvideAndroidCompositionLocals(AndroidCompositionLocals.android.kt:121)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1$1$3.invoke(Wrapper.android.kt:155)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1$1$3.invoke(Wrapper.android.kt:154)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:109)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:35)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.CompositionLocalKt.CompositionLocalProvider(CompositionLocal.kt:401)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1$1.invoke(Wrapper.android.kt:154)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1$1.invoke(Wrapper.android.kt:133)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:109)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.jvm.kt:35)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.ActualJvm_jvmKt.invokeComposable(ActualJvm.jvm.kt:97)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.ComposerImpl.doCompose(Composer.kt:3595)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.ComposerImpl.composeContent$runtime_release(Composer.kt:3522)
+06-24 14:03:53.497 12517 12582 E TestRunner: 	at androidx.compose.runtime.CompositionImpl.composeContent(Composition.kt:743)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.runtime.Recomposer.composeInitial$runtime_release(Recomposer.kt:1122)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.runtime.CompositionImpl.composeInitial(Composition.kt:649)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.runtime.CompositionImpl.setContent(Composition.kt:635)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1.invoke(Wrapper.android.kt:133)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1.invoke(Wrapper.android.kt:124)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AndroidComposeView.setOnViewTreeOwnersAvailable(AndroidComposeView.android.kt:1626)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition.setContent(Wrapper.android.kt:124)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition.onStateChanged(Wrapper.android.kt:180)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEvent(LifecycleRegistry.jvm.kt:313)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.lifecycle.LifecycleRegistry.addObserver(LifecycleRegistry.jvm.kt:191)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1.invoke(Wrapper.android.kt:131)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.WrappedComposition$setContent$1.invoke(Wrapper.android.kt:124)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.platform.AndroidComposeView.onAttachedToWindow(AndroidComposeView.android.kt:1707)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.view.View.dispatchAttachedToWindow(View.java:22860)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3492)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3499)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.view.ViewGroup.addViewInner(ViewGroup.java:5299)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.view.ViewGroup.addView(ViewGroup.java:5085)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.view.ViewGroup.addView(ViewGroup.java:5057)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:572)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.app.Activity.setContentView(Activity.java:3857)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.activity.ComponentActivity.setContentView(ComponentActivity.kt:402)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.activity.compose.ComponentActivityKt.setContent(ComponentActivity.kt:72)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl$setContent$3.invoke(ComposeUiTest.android.kt:489)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl$setContent$3.invoke(ComposeUiTest.android.kt:488)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.test.AndroidSynchronization_androidKt.runOnUiThread$lambda$0(AndroidSynchronization.android.kt:37)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.test.AndroidSynchronization_androidKt.$r8$lambda$opyMdTZ52jorqLaIG4SKpPr_Zno(Unknown Source:0)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at androidx.compose.ui.test.AndroidSynchronization_androidKt$$ExternalSyntheticLambda0.call(D8$$SyntheticClass:0)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2612)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.os.Handler.handleCallback(Handler.java:959)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.os.Looper.loop(Looper.java:317)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-24 14:03:53.498 12517 12582 E TestRunner: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-24 14:03:53.498 12517 12582 E TestRunner: ----- end exception -----
+06-24 14:03:53.498 12517 12582 I TestRunner: finished: pokemonDetailScreen_callsBackCallback_whenBackButtonClicked(com.example.ud1_modularization_example_2.feature.pokemon_detail.PokemonDetailScreenTest)

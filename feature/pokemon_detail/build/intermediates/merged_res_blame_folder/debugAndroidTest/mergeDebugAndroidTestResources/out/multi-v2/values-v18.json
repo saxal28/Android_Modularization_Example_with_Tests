@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.ud1_modularization_example_2.feature.pokemon_detail.test.pokemon_detail-mergeDebugAndroidTestResources-62:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/alan.sax/.gradle/caches/8.11.1/transforms/c96a1ac2e4b33f3ae713c41dd9da994d/transformed/core-1.6.1/res/values-v18/values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}

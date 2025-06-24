@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-06-24T18:37:30" hostname="Alan-Sax-MFQVF7THGW" time="0.001">
+  <properties/>
+  <testcase name="image should return correct url for valid id" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <testcase name="id should extract correct value from url without trailing slash" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <testcase name="id should return null for non-numeric id in url" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <testcase name="id should return null for invalid url format" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <testcase name="id should extract correct value from valid url" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <testcase name="data class properties should be accessible" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <testcase name="image should return url with null for invalid id" classname="com.example.ud1_modularization_example_2.data.pokemon.PokemonListItemTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

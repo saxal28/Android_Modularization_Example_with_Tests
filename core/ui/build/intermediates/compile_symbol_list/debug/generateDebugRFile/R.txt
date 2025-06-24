@@ -1,0 +1,3 @@
+int drawable pokeball 0x0
+int drawable search_icon 0x0
+int drawable tag_icon 0x0

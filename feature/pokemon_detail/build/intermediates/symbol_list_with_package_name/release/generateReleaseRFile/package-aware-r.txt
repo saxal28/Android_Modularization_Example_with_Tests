@@ -1,0 +1,1 @@
+com.example.ud1_modularization_example_2.feature.pokemon_detail
